@@ -32,3 +32,12 @@ set tabstop=2 softtabstop=2 shiftwidth=2
 set expandtab
 set ignorecase smartcase
 
+set foldcolumn=0
+set foldmethod=marker
+set foldmethod=indent
+
+nnoremap <Space> za
+nnoremap Y y$
+vnoremap S "_d"0P
+
+

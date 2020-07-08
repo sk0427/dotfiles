@@ -1,7 +1,9 @@
+autoload -U  compinit && compinit -u
+autoload -Uz colors && colors
+
+setopt PRINT_EIGHT_BIT
 setopt IGNOREEOF
 
 alias ll='ls -la'
-setopt print_eight_bit
 
-autoload -U compinit && compinit -u
-autoload -Uz colors && colors
+export LANG=ja_JP.UTF-8
